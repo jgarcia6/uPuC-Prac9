@@ -1,2 +1,2 @@
-# uPuC-Prac8
-AVR-GCC. UART
+# uPuC-Prac9
+AVR-GCC. Timers
