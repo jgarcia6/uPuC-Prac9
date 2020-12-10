@@ -16,7 +16,7 @@ int main(){
     UART_puts(0,'\n\r');
 
     Timer0_Ini(); /* Inicializar contador de millis.*/
-    Clock_Ini(1583049590000);
+    Clock_Ini(23,59,50);
 
     while(1)
     { /* == main loop == */
