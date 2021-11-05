@@ -22,9 +22,9 @@ int main(){
     { /* == main loop == */
         if( Timer0_SecFlag() )
         { /* ¿ha pasado un Segundo? */
-            gotoxy(5,2);
+            UART_gotoxy(0,5,2);
             Clock_Display();
-            gotoxy(5,3);
+            UART_gotoxy(0,5,3);
         }
     } /* fin del loop principal */
     return 0; /* <-- no se llega aquí */
